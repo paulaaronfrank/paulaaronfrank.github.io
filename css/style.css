@@ -1,0 +1,145 @@
+/*
+Theme Name: Super Hacked
+Theme URI: 
+Author: Aaron Frank
+
+Description: A hacked Theme for my final project.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    background-color: #14062b;
+    font-size: large;
+    overflow-x: hidden;
+}
+
+.hacked-nav {
+    width: 685px;
+    margin: 0 auto;
+}
+
+.hacked-nav-center {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.hacked-nav a {
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #e2e0fd;
+}
+
+.hacked-nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.hacked-nav-item {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+#particles-js {
+    position: fixed;
+    z-index: -999;
+    left: -12px;
+    top: -12px;
+    width: 100vw;
+    height: 105vh;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@font-face {
+    font-family: hacked-ttf;
+    src: url(../fnt/Hacked-KerX.ttf);
+}
+
+@font-face {
+    font-family: bitwise-ttf;
+    src: url(../fnt/Bitwise-m19x.ttf);
+}
+
+@font-face {
+    font-family: mode-ttf;
+    src: url(../fnt/Modeseven-L3n5.ttf);
+}
+
+@font-face {
+    font-family: roboto-ttf;
+    src: url(../fnt/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-med-ttf;
+    src: url(../fnt/Roboto-Medium.ttf);
+}
+
+.hacked-nav-title {
+    font-family: hacked-ttf;
+    font-size: 80px;
+}
+
+.mode-fnt {
+    font-family: mode-ttf;
+}
+
+.bitwise-fnt {
+    font-family: bitwise-ttf;
+}
+
+.roboto-fnt {
+    font: roboto-ttf;
+}
+
+h1 {
+    color: #e2e0fd;
+    font-family: bitwise-ttf;
+    font-size: 46px;
+}
+
+h2 {
+    color: #d5d2ff;
+    font-family: bitwise-ttf;
+}
+
+h3 {
+    margin-top: 40px;
+    color: #d5d2ff;
+    font-family: bitwise-ttf;
+}
+
+h4 {
+    color: #d5d2ff;
+    font-family: roboto-med-ttf;
+}
+
+p {
+    font-family: roboto-med-ttf;
+    color: #b4b2cf;
+}
+
+.container {
+    margin-top: 20;
+    margin-bottom: 80px;
+}
+
+label {
+    color: #b4b2cf;
+    font-family: mode-ttf;
+}
+
+input {
+    font-family: roboto-med-ttf;
+}
+
+.code-box {
+    background-color: #d5d2ff;
+}

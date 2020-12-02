@@ -1,0 +1,272 @@
+<html>
+
+<head>
+    <meta name="author" content="Aaron Frank">
+    <meta name="keywords" content="MAAC, Design, Final Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hacked</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/vim.css" rel="stylesheet" />
+    <link href="./css/btn.css" rel="stylesheet" />
+    <link href="./css/form.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse hacked-nav">
+                <div class="navbar-nav hacked-nav-center mode-fnt">
+                    <!-- INFO: changing links character length requires to set hacked-nav width -->
+                    <a class="nav-link hacked-nav-item" href="#">Link</a>
+                    <a class="nav-link hacked-nav-item" href="#">Link</a>
+                    <a class="nav-link hacked-nav-title" href="#">Hacked</a>
+                    <a class="nav-link hacked-nav-item" href="#">Page</a>
+                    <a class="nav-link hacked-nav-item" href="#">Page</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6 my-auto">
+                <h1 class="bitwise-fnt">Super Hacke<span class="vim-caret">d</span></h1>
+                <div class="text-success mode-fnt">This is a starter template with a lorem ipsum components. Checkout my GitHub to download the Theme for free.</div>
+                <hr class="rounded">
+                <div class="text-mono">
+                    <input type="submit" id="ok" class="osx primary" value="DOWNLOAD" />
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="./img/hacker_light.png" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Lorem Ipsum Functions -->
+    <div class="container text-center">
+        <h2 class="bitwise-fnt">Theme Overview</h2>
+        <p>Hacked & Bootstrap peovide a wide viarity of components.</p>
+    </div>
+
+    <div class="container">
+        <h3>Progress Bars</h3>
+
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Alerts</h3>
+        <div class="alert alert-success mode-fnt" role="alert">
+            This is a success alert—check it out!
+        </div>
+        <div class="alert alert-danger mode-fnt" role="alert">
+            This is a danger alert—check it out!
+        </div>
+        <div class="alert alert-warning mode-fnt" role="alert">
+            This is a warning alert—check it out!
+        </div>
+        <div class="alert alert-info mode-fnt" role="alert">
+            This is a info alert—check it out!
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Buttons</h3>
+
+        <button type="button" class="btn btn-success mode-fnt mr-4">Success</button>
+        <button type="button" class="btn btn-danger mode-fnt mr-4">Danger</button>
+        <button type="button" class="btn btn-warning mode-fnt mr-4">Warning</button>
+        <button type="button" class="btn btn-info mode-fnt">Info</button>
+    </div>
+
+    <div class="container">
+        <h3>Blockquotes</h3>
+        <blockquote class="blockquote text-right">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <br>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+    </div>
+
+    <div class="container">
+        <h3>Google Maps</h3>
+        <br>
+        <!-- Generated by https://www.embedgooglemap.net/  -->
+        <center>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="814" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Fredericton%2C%20NB&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://embedgooglemap.net/mapv2/"></a>
+                </div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 814px;
+                    }
+                    
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none!important;
+                        height: 500px;
+                        width: 814px;
+                    }
+                </style>
+            </div>
+        </center>
+    </div>
+
+    <div class="container">
+        <h3>Text & Paragraphs</h3>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+            <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+            <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+            <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Form</h3>
+        <div class="row py-4">
+            <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">Billing address</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                        <div class="invalid-feedback">
+                            Please enter your shipping address.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-5 mb-3">
+                            <label for="country">Country</label>
+                            <select class="custom-select d-block w-100" id="country" required>
+                      <option value="">Choose...</option>
+                      <option>United States</option>
+                    </select>
+                            <div class="invalid-feedback">
+                                Please select a valid country.
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="state">State</label>
+                            <select class="custom-select d-block w-100" id="state" required>
+                      <option value="">Choose...</option>
+                      <option>California</option>
+                    </select>
+                            <div class="invalid-feedback">
+                                Please provide a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="zip">Zip</label>
+                            <input type="text" class="form-control" id="zip" placeholder="" required>
+                            <div class="invalid-feedback">
+                                Zip code required.
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <h4 class="mb-3">Packages</h4>
+
+                    <div class="d-block my-3">
+                        <div class="custom-control custom-radio">
+                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                            <label class="custom-control-label" for="credit">Free Super Hacked Theme</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="debit">Premium Super Hacked Theme for 1 Year</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="paypal">Premium Super Hacked Theme for life</label>
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <button class="btn btn-primary btn-lg btn-block bitwise-fnt" type="submit">Continue to checkout</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Code</h3>
+        <pre>
+            <div class="code-box">
+                <code>
+    # Python 3: Fibonacci series up to n
+    >>> def fib(n):
+    >>>     a, b = 0, 1
+    >>>     while a < n:
+    >>>         print(a, end=' ')
+    >>>         a, b = b, a+b
+    >>>     print()
+    >>> fib(1000)
+    0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+                </code>
+            </div>
+        </pre>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 mode-fnt text-info">© 2020 Copyright:
+        <a style="text-decoration: none;" href="https://github.com/paulaaronfrank/"> Aaron Frank</a>
+    </div>
+
+    <!-- Include JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js" integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g==" crossorigin="anonymous"></script>
+    <script src="./js/particle.js"></script>
+
+</body>
+
+</html>
