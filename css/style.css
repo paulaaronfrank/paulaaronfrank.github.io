@@ -90,10 +90,6 @@ body {
     font-family: bitwise-ttf;
 }
 
-.roboto-fnt {
-    font: roboto-ttf;
-}
-
 h1 {
     color: #e2e0fd;
     font-family: bitwise-ttf;
@@ -101,24 +97,28 @@ h1 {
 }
 
 h2 {
-    color: #d5d2ff;
-    font-family: bitwise-ttf;
+    color: #b4aff7;
+    font-size: 38;
+    font-family: monospace;
 }
 
 h3 {
     margin-top: 40px;
-    color: #d5d2ff;
-    font-family: bitwise-ttf;
+    color: #7873c5;
+    font-size: 28;
+    font-family: monospace;
 }
 
 h4 {
-    color: #d5d2ff;
-    font-family: roboto-med-ttf;
+    color: #454172;
+    font-size: 22;
+    font-family: monospace;
 }
 
 p {
-    font-family: roboto-med-ttf;
+    font-family: monospace;
     color: #b4b2cf;
+    font-size: 18px;
 }
 
 .container {
@@ -128,13 +128,18 @@ p {
 
 label {
     color: #b4b2cf;
-    font-family: mode-ttf;
+    font-family: monospace;
 }
 
 input {
-    font-family: roboto-med-ttf;
+    font-family: monospace;
 }
 
 .code-box {
     background-color: #d5d2ff;
+    opacity: 0.89;
+}
+
+.blockquote-footer {
+    font-family: mode-ttf;
 }
